@@ -1,26 +1,22 @@
-import React, { Component } from 'react';
-import Grid from '@material-ui/core/Grid';
+import React from 'react';
 import Button from '@material-ui/core/Button';
-import InputPhoneField from './InputPhoneField';
+import InputEmailField from './InputEmailField';
 
 export default class OfferSupportForm extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            Phone: '',
-            IsValidPhone: false,
+            email: '',
+            isValidEmail: false,
         };
-        this.handlePhoneNumberChange.bind(this);
+        this.handleEmailChange.bind(this);
     }
-
-    handlePhoneNumberChange = (value, isValid) => {
-
-        console.log(value);
-        console.log(isValid);
-
-        this.setState({ Phone: value, IsValidPhone: isValid });
+ 
+    handleEmailChange = (value, isValid) => {      
+        this.setState({ email: value, isValidEmail: isValid});                                         
+        console.log(`${value} ${isValid}`);
     }
-
+     
     handleSubmitForm = (event) => {
         console.log('handleSubmitForm  ', event);
     }
@@ -28,18 +24,19 @@ export default class OfferSupportForm extends React.Component {
     render() {
         return (
             <div style={{ marginTop: '40px' }}>
-
-                <InputPhoneField placeholder=""
+                
+                <InputEmailField placeholder=""
                     helperText="(Required)"
-                    label="Phone"
-                    fieldName="Phone"
-                    handleChange={this.handlePhoneNumberChange}
-                    value={this.state.Phone} />
-                {this.state.IsValidPhone === true ?
+                    label="Email"
+                    fieldName="Email"
+                    handleChange={this.handleEmailChange}
+                />
+
+                {this.state.isValidEmail ?
                     <Button variant="contained" color="primary" onClick={this.handleSubmitForm}>
                         Submit
                     </Button>
-                    :
+                :
                     <Button variant="contained" color="primary" disabled>
                         Submit
                     </Button>

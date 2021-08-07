@@ -1,0 +1,95 @@
+[
+    
+        {
+            "id": 1001,
+            "first": "Mohammed",
+            "last": "Schimmel",
+            "email": "Mohammed.Schimmel@kurtis.biz",
+            "address": "3315 Dickens Prairie",
+            "created": "February 12, 2013",
+            "balance": "$7,542.97"
+        },
+        {
+            "id": 1002,
+            "first": "Felipe",
+            "last": "Keeling",
+            "email": "orchidsquirrel91@gmail.com",
+            "address": "36550 Ashleigh Springs",
+            "created": "June 21, 2017",
+            "balance": "$9,919.08"
+        },
+        {
+            "id": 1003,
+            "first": "Loyal",
+            "last": "Harris",
+            "email": "tangiraffe70@gmail.com",
+            "address": "7546 Cartwright Neck",
+            "created": "April 19, 2021",
+            "balance": "$4,518.08"
+        },
+        {
+            "id": 1004,
+            "first": "Harley",
+            "last": "Witting",
+            "email": "Harley.Witting@aaliyah.info",
+            "address": "125 Thurman Mountains",
+            "created": "January 23, 2016",
+            "balance": "$6,648.13"
+        },
+        {
+            "id": 1005,
+            "first": "Fay",
+            "last": "Pagac",
+            "email": "salmonsquirrel79@gmail.com",
+            "address": "212 Cleora Forks",
+            "created": "August 19, 2019",
+            "balance": "$181.79"
+        },
+        {
+            "id": 1006,
+            "first": "Eleanore",
+            "last": "Harber",
+            "email": "azureturtle95@gmail.com",
+            "address": "68515 Lindgren Center",
+            "created": "June 8, 2020",
+            "balance": "$6,011.14"
+        },
+        {
+            "id": 1007,
+            "first": "Gregory",
+            "last": "Borer",
+            "email": "Gregory.Borer@monroe.net",
+            "address": "342 Hirthe Court",
+            "created": "December 22, 2013",
+            "balance": "$8,632.05"
+        },
+        {
+            "id": 1008,
+            "first": "Kimberly",
+            "last": "McClure",
+            "email": "violetwolf81@gmail.com",
+            "address": "5924 Consuelo Mount",
+            "created": "March 28, 2020",
+            "balance": "$8,926.12"
+        },
+        {
+            "id": 1009,
+            "first": "Margaret",
+            "last": "Tromp",
+            "email": "Margaret.Tromp@amara.info",
+            "address": "228 Stokes Mountain",
+            "created": "February 3, 2016",
+            "balance": "$7,188.75"
+        },
+        {
+            "id": 1010,
+            "first": "Lucy",
+            "last": "Bechtelar",
+            "email": "violetsquirrel16@gmail.com",
+            "address": "194 Braeden Field",
+            "created": "April 19, 2015",
+            "balance": "$176.36"
+        }
+        
+    ]
+
